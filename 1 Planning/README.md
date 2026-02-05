@@ -1,1 +1,3 @@
-# Project-Package-Template
+# Planning
+
+Project planning documents.
