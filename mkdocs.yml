@@ -1,0 +1,9 @@
+site_name: My Docs
+site_dir: Documentation
+docs_dir: Project Files
+site_url: ''
+theme:
+  name: material
+
+plugins:
+  - offline

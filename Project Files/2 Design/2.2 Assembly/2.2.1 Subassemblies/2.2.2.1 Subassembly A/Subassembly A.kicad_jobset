@@ -1,0 +1,96 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "c12c7db2-a812-4320-93e2-7e1f03619fc2",
+      "settings": {
+        "board_only": false,
+        "board_outlines_chaining_epsilon": 0.01,
+        "cut_vias_in_body": false,
+        "description": "",
+        "export_board_body": true,
+        "export_components": true,
+        "export_inner_copper": false,
+        "export_pads": false,
+        "export_silkscreen": false,
+        "export_soldermask": false,
+        "export_tracks": false,
+        "export_zones": false,
+        "fill_all_vias": false,
+        "format": "step",
+        "fuse_shapes": false,
+        "include_dnp": false,
+        "include_unspecified": true,
+        "occt_format": 0,
+        "optimize_step": true,
+        "output_filename": ".step",
+        "overwrite": true,
+        "subst_models": true,
+        "use_defined_origin": false,
+        "use_drill_origin": false,
+        "use_grid_origin": false,
+        "use_pcb_center_origin": true,
+        "user_origin.x": 0.0,
+        "user_origin.y": 0.0,
+        "vrml_model_dir": "",
+        "vrml_relative_paths": false
+      },
+      "type": "pcb_export_3d"
+    },
+    {
+      "description": "",
+      "id": "1ba2cd7b-1ca2-4827-9bae-123ea6eadc71",
+      "settings": {
+        "bom_format_preset_name": "",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": true,
+        "field_delimiter": "",
+        "fields_group_by": [],
+        "fields_labels": [
+          "Reference",
+          "Description",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Qty",
+          "#"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Description",
+          "Value",
+          "__Footprint",
+          "__Datasheet",
+          "__${QUANTITY}",
+          "__${ITEM_NUMBER}"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "",
+        "ref_delimiter": "",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Datasheet",
+        "string_delimiter": ""
+      },
+      "type": "sch_export_bom"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "97c7b00b-be94-4db7-8653-c09944743b12",
+      "only": [],
+      "settings": {
+        "output_path": "C:\\Users\\Sean\\Documents\\GitHub\\Project-Package-Template\\2 Design\\2.2 Assemblies\\2.2.2 Subassemblies\\2.2.2.1 Subassembly A\\"
+      },
+      "type": "folder"
+    }
+  ]
+}
