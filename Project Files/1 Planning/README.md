@@ -1,3 +1,8 @@
-# 1 Planning
+---
+tags:
+  - Planning
+---
+
+# Planning
 
 Project planning documents.

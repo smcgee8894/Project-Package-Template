@@ -4,6 +4,76 @@ docs_dir: Project Files
 site_url: ''
 theme:
   name: material
+  icon:
+    tag:
+      phase-planning: material/human-male-board-poll
+      phase-design: fontawesome/solid/compass-drafting
+      phase-build: octicons/tools-16
+      phase-usage: material/file-question
+      mech: octicons/gear-16
+      elec: fontawesome/solid/microchip
+      code: fontawesome/solid/code
+      part: fontawesome/solid/cube
+      assm: fontawesome/solid/cubes
+      kicad: simple/kicad
+      solidworks: simple/dassaultsystemes
+      scad: simple/openscad
+      freecad: simple/freecad
+      guide: material/file-document-arrow-right
+      dwgs: material/file-cad
 
 plugins:
   - offline
+  - tags
+
+markdown_extensions:
+  - admonition
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.blocks.caption
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  tags:
+    Planning: phase-planning
+    Design: phase-design
+    Build: phase-build
+    Usage: phase-usage
+    Mechanical: mech
+    Electrical: elec
+    Programming: code
+    Parts: part
+    Assemblies: assm
+    KiCad: kicad
+    SOLIDWORKS: solidworks
+    OpenSCAD: scad
+    FreeCAD: freecad
+    Guide: guide
+    Drawings: dwgs
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

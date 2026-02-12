@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MyProject.kicad_pro",
+    "filename": "Part C.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "${PROJECTNAME}.step",
+      "step": ".step",
       "svg": "",
       "vrml": ""
     },

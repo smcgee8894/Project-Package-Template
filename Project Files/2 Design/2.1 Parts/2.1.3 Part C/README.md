@@ -1,2 +1,17 @@
-# 2.1.3 Part C
-Kiad PCB
+---
+tags:
+  - Design
+  - Parts
+  - Electrical
+  - KiCad
+  - Drawings
+---
+
+# Part C
+
+Kiad PCB design files.
+
+![Part C PCB Render](Part C.png){ width="600" }
+/// caption
+KiCAD Render of Part C PCB (top)
+///

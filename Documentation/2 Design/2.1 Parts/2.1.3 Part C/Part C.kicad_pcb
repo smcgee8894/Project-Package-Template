@@ -89,5 +89,38 @@
 		(layer "Edge.Cuts")
 		(uuid "a4134da2-ad2b-423e-9615-8b89a921c1b7")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "09207a49-4bc2-4662-8525-f2f9917d200b")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 125 75) (xy 175 75) (xy 175 125) (xy 125 125)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(island)
+			(pts
+				(xy 174.442539 75.520185) (xy 174.488294 75.572989) (xy 174.4995 75.6245) (xy 174.4995 124.3755)
+				(xy 174.479815 124.442539) (xy 174.427011 124.488294) (xy 174.3755 124.4995) (xy 125.6245 124.4995)
+				(xy 125.557461 124.479815) (xy 125.511706 124.427011) (xy 125.5005 124.3755) (xy 125.5005 75.6245)
+				(xy 125.520185 75.557461) (xy 125.572989 75.511706) (xy 125.6245 75.5005) (xy 174.3755 75.5005)
+			)
+		)
+	)
 	(embedded_fonts no)
 )

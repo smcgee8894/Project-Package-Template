@@ -1,1 +1,7 @@
-# 2.1 Parts
+---
+tags:
+  - Design
+  - Parts
+---
+
+# Parts
